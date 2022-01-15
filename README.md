@@ -1,36 +1,6 @@
 # Human-Activity-Recognition
 Human Activity Recognition using smartphones sensor 
 
-## Table of Content
-
--  [**OVERVIEW**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#overview)
--  [**SOURCES/USEFUL LINKS**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#sourcesuseful-links)
--  [**PROBLEM STATEMENT**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#problem-statement)
--  [**SOLUTION**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#solution)
--  [**WHICH TYPE OF ML PROBLEM IS THIS?**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#which-type-of-ml-problem-is-this)
--  [**WHAT IS THE BEST PERFORMANCE METRIC FOR THIS PROBLEM?**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#what-is-the-best-performance-metric-for-this-problem)
--  [**BUSINESS OBJECTIVES AND CONSTRAINTS**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#business-objectives-and-constraints)
--  [**DATA OVERVIEW**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#data-overview)
-   *  [1.	HOW DATA WAS RECORDED](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#1-how-data-was-recorded)
-   *  [2.	HOW IS THE DATA PREPROCESSED?](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#2-how-is-the-data-preprocessed)
-   *  [3. Y_LABELS(ENCODED)](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#3-y_labelsencoded)
-   *  [4. DATA DIRECTORY](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#4-data-directory)
--  [**TRAIN AND TEST RATIO**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#train-and-test-ratio)
--  [**AGENDA**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#agenda)
-   *  [1.	ANALYZING THE DATA (EDA)](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#1-analyzing-the-data-eda)
-   *  [2.	MACHINE LEARNING MODELS:](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#2-machine-learning-models)
-      *  [*a.	Logistic Regression*](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#a-logistic-regression)
-      *  [*b.	Linear SVC*](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#b-linear-svc)
-      *  [*c.	Kernal SVM*](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#c-kernal-svm)
-      *  [*d.	Decision Tree*](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#ddecision-tree)
-      *  [*e.	Random Forest Classifier*](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#erandom-forest-classifier)
-      *  [*f.	Gradient Boosted*](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#fgradient-boosted)
-   *  [3.	DEEP LEARNING MODELS:](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#3-deep-learning-models)
-   *  [4.	RESULTS & CONCLUSION](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#4results--conclusion)
--  [**TECHNICAL ASPECT**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#technical-aspect)
--  [**INSTALLATION**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#installation)
--  [**QUICK OVERVIEW OF THE DATASET**](https://github.com/MadhavShashi/Human-Activity-Recognition-Using-Smartphones-Sensor-DataSet/blob/master/README.md#quick-overview-of-the-dataset)
-
 
 ## Overview
 Smart phones have become a most useful tool in our daily life for communication with advanced technology provided intelligent assistance to the user in their everyday activities. The portable working framework with computing ability and interconnectivity, application programming interfaces for executing outsiders’ tools and applications, mobile phones have highlights such as cameras, GPS, web browsers so on., and implanted sensors such as **accelerometers** and **gyroscope** which permits the improvement of applications in view of client’s specific area, movement and context.
@@ -68,7 +38,7 @@ OR in other words you can call, it is a **multiclass classification problem**, f
 - **Confusion Matrix** : The very important thing that the confusion Matrix had told us what type of errors and what types of confusion are happening. 
     * Simply for understanding this metric for this project view, we know that we have 6 class label and often times it could so happen that our Model will be confused between sitting or standing, and walking upstairs or walking downstairs. 
     * So, the confusion Matrix is a very-very important way of understanding which class is your Algorithm or ML model is doing very well or for which classes your Algorithm or ML model is getting confused. 
-![har1](https://user-images.githubusercontent.com/49862149/91036384-de3d6c80-e624-11ea-8ee5-182bf904df35.png)
+
 
         We can see clearly in this confusion matrix plot our model is doing very well for class Laying and Walking and good for Standing, Walking_Downstairs and Walking_Upstairs but our model getting confused with Sitting Class. 
 
@@ -90,13 +60,12 @@ OR in other words you can call, it is a **multiclass classification problem**, f
    *  suffix '**XYZ**' represents 3-axial signals in **X** , **Y**, and **Z** directions.
    *  Let’s understand above information in graphical way below:
 
-      ![npic1](https://user-images.githubusercontent.com/49862149/91124530-09739a80-e6bd-11ea-9bb9-d4e4b437f819.jpg)
 
 ### 2. How is the Data preprocessed?
 -  After getting Raw Sensor Data the Expert (**Domain Expert, Signal Engineer Expert**) are preprocessed this data and make some useful feature. I am not expert but what I understand I explain here how these data are preprocessed. 
 -  These sensor signals are preprocessed by applying **noise filters** and then *sampled in fixed-width windows (sliding windows) of 2.56 seconds each with 50% overlap*. ie., each window has *128* readings.
 -  From Each window, a feature vector was obtained by calculating variables from the **time and frequency domain**.
-   ![npic2](https://user-images.githubusercontent.com/49862149/91124992-37a5aa00-e6be-11ea-87c6-43acd7ac8b04.jpg)
+
 
 -  The accelertion signal was saperated into Body and Gravity acceleration signals(**tBodyAcc-XYZ** and **tGravityAcc-XYZ**) using some low pass filter with corner frequecy of 0.3Hz.
 -  After that, the body linear acceleration and angular velocity were derived in time to obtian *jerk signals* (**tBodyAccJerk-XYZ** and **tBodyGyroJerk-XYZ**).
@@ -159,12 +128,12 @@ OR in other words you can call, it is a **multiclass classification problem**, f
    *  LAYING as __6__
 
 ### 4. Data Directory
-   ![npic03](https://user-images.githubusercontent.com/49862149/91126397-7c7f1000-e6c1-11ea-94e9-c909b34df502.jpg)
 
--  ![#FF5733](https://via.placeholder.com/8x24/FF5733/000000?text=+) __Important Note__: When I am applying Machine learning algorithm, I use these experts created feature data. When we are applying Deep learning algorithm, I use RAW sensors DATA for predicting Human Activity.
-   ![npic4](https://user-images.githubusercontent.com/49862149/91137130-25326d00-e6cc-11ea-99a0-1cee55d314c0.jpg)
 
--  ![#FF5733](https://via.placeholder.com/8x24/FF5733/000000?text=+) The data is provided as a single zip file that is about **58 megabytes** in size. The direct link for this download is: [**UCI HAR Dataset.zip**](https://archive.ics.uci.edu/ml/machine-learning-databases/00364/dataset_uci.zip)
+-  __Important Note__: When I am applying Machine learning algorithm, I use these experts created feature data. When we are applying Deep learning algorithm, I use RAW sensors DATA for predicting Human Activity.
+   
+
+-  The data is provided as a single zip file that is about **58 megabytes** in size. The direct link for this download is: [**UCI HAR Dataset.zip**](https://archive.ics.uci.edu/ml/machine-learning-databases/00364/dataset_uci.zip)
 
 ## Train and Test ratio
 30 subjects(*volunteers*) data is randomly split to __70%__ of the volunteers were taken as __training data__ and remaining __30%__ subjects’ recordings were taken for __test data__.  _e.g_. 21 subjects for train and nine for test.
