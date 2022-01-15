@@ -255,9 +255,9 @@ Cross-validation is a good technique to tune model parameters like regularizatio
 
 | Model Name | Features | Hyperparameter Tuning | crossentropy | Accuracy Value |
 |---------- | ---------- | -------- | ------ | -------- |
-| LSTM With 1_Layer(neurons:32) | `Raw time series Data` | Done | **0.47** | **0.90%** |
-| LSTM With 2_Layer(neurons:48, neurons:32) | `Raw time series Data` | Done | **0.39** | **0.90%** |
-| LSTM With 2_Layer(neurons:64, neurons:48) | `Raw time series Data` | Done | **0.27** | **0.91%** |
+| LSTM With 1_Layer(neurons:32) | `Raw time series Data` | Done | **0.64** | **0.90%** |
+| LSTM With 2_Layer(neurons:48, neurons:32) | `Raw time series Data` | Done | **0.31** | **0.91%** |
+
 
 -  When we talking about LSTM Model, here with LSTM we are using simple RAW data(in ML model we are using Single engineered data made by an expert), but we can see the result without any FE data, LSTM perform very-very well and got highest 91% accuracy with 2_layer LSTM with hyperparameter Tuning and also when we are increasing LSTM layer and Hyperparameter Tuning the cross-entropy value is decreasing and Accuracy is increasing.
 
@@ -285,6 +285,7 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
       pip3 install scikit-learn
       pip3 install matplotlib
       pip3 install keras
+      pip3 install Tensorflow
       ```
 
 ## Quick overview of the dataset
